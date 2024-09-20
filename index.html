@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Akira Nakai-san | RWB/JDM Cars</title>
+    <link rel="icon" type="image" href="./assets/akira.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay: 1000ms;">about</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay: 1000ms;">work</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay: 1000ms;">contact</a>
+    <a id="projects" onclick="showprojects()" class="animated fadeIn" style="animation-delay: 1000ms;">projects</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay: 2000;">
+        <h1>Rauh-Welt Begriff</h1>
+        <h2>Akira Nakai-san</h2>
+        <div id="menu">
+            <a onclick="showabout()">about</a>
+            <a onclick="showwork()">work</a>
+            <a onclick="showcontact()">contact</a>
+            <a onclick="showprojects()">projects</a>
+        </div>
+        <table>
+            <tr>
+                <td class="animated zoomIn" style="animation-delay:2s;"><a class="social"
+                        href="https://x.com/AngeloDonnnn"><i class="fab fa-twitter"></i></a></td>
+                <td class="animated zoomIn" style="animation-delay:2s;"><a class="social"
+                        href="https://www.instagram.com/thearisangelo/"><i class="fab fa-instagram"></i></a></td>
+                <td class="animated zoomIn" style="animation-delay:2s;"><a class="social"
+                        href="https://rwbuk.com/rwb-japan/"><i class="fa fa-car" aria-hidden="true"></i></a></td>
+            </tr>
+        </table>
+    </div>
+    <div id="projects_container" class="container">
+        <div onclick="closeprojects()"><i class="fas fa-angle-right"></i></div>
+        <h1>RWB Projects</h1>
+        <section>
+            <h2>RWB Works</h2>
+            <p>
+                Here are some RWB pictures that i have. I really do like this type of cars. I hope that one day i can own 1 of these.
+            </p>
+            <ul>
+                <div class="project_card">
+                    <div class="project_info">
+                        <h3>RWB by Akira Nakai</h3>
+                        <p>These are some of the RWB customization of the GOAT Akira Nakai. </p>
+                        <button class="btn_one"><a
+                        href="https://github.com/TheArisAngelo/Car-Website/tree/main/RWB"
+                        style="color: inherit; text-decoration: none">View RWB Project </a></button>
+                    </div>
+                </div>
+                <div class="project_card">
+                    <div class="project_info">
+                        <h3>RWB</h3>
+                        <p>These are the collection of my pictures of RWB. I hope you guys will like it.</p>
+                        <button class="btn_one"><a href="https://github.com/TheArisAngelo/Car-Website/tree/main/RWB%20Random"
+                                style="color: inherit; text-decoration: none">View RWB Random </a></button> 
+                    </div>
+                </div>
+                <div class="project_card">
+                    <div class="project_info">
+                        <h3>JDM Cars</h3>
+                        <p>These are some pictures of a JDM Car/s.</p>
+                        <button class="btn_one"><a href="https://github.com/TheArisAngelo/Car-Website/tree/main/JDM"
+                                style="color: inherit; text-decoration: none"> View JDM Cars </a></button>
+                    </div>
+                </div>
+                <div class="project_card">
+                    <div class="project_info">
+                        <h3>Profile on Github</h3>
+                        <p>Come check out my profile in Github we can collab, just let me know!</p>
+                        <button class="btn_one"><a href="https://github.com/TheArisAngelo"
+                                style="color: inherit; text-decoration: none">View my Profile</a></button>
+                    </div>
+                </div>
+            </ul>
+        </section>
+    </div>
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        <h1>Akira Nakai Works</h1>
+        <section>
+            <h2></h2>
+            <p>
+               The fonder of RWB, he makes super flamboyant wide body kits. 
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;RWB</div>
+                <div><i class="fas fa-circle"></i>&nbsp;RWB by Akira Nakai</div>
+                <div><i class="fas fa-circle"></i>&nbsp;JDM Cars</div>
+            </div>
+            <button class="btn_one"><a href="./assets/rwb.jpg" target="_blank"
+                    style="color: inherit; text-decoration: none">View 
+                    RWB</a></button>
+        </section>
+    </div>
+    <div id="about_container" class="container">
+        <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+        <h1>Akira Nakai</h1>
+        <section>
+           <h2>about me</h2> 
+           <p>
+            In a world where automotive culture is ever-evolving, there are those dare to defy the status quo and 
+            carve their own path. Leading the pack we find Akira Nakai, a name synonymous with tireless passion, breaking
+            rules, and the relentess pursuit of humble perfection.
+           </p>
+           <p>
+            Throughout his twenties, Akira Nakai was immersed in the world of tuner and drift culture. Nakai-san was part 
+            of a crew that pushed the boundaries of racing with the iconic Toyota AE86s.
+           </p>
+           <p>
+            Today an RWB build by Nakai overseas often turns into an entertaining event. As he doesn't mind spectators 
+            during his process, many enthusiasts often gather at shops to see the master at work. Honestly, we highly 
+            advise you to dive into and RWB build Youtube rabbit hole, even if you're not a car head, they're fascinating to
+            watch. 
+           </p>
+        </section>
+        <section>
+        <h2>Skills Akira Nakai</h2>
+        <p>
+            Nakai-san, the custodian of craftsmanship, and Japan's most precious Porsche tuner.
+        </p>
+        </section>
+    </div>
+    <div id="contact_container" class="container">
+        <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+        <h1>Contact Me</h1>
+        <section>
+            <h2>contact me</h2>
+            <p>
+                <form action="https://formcarry.com/s/JKNu0aGkeQ" method="POST" class="formcarry-form">
+                    <input name="name" type="text" placeholder="name" required />
+                    <input name="email" type="email" placeholder="email" required />
+                    <textarea name="message" placeholder="your message" required rows="5"></textarea><br>
+                    <button class="btn_one">send</button>
+                </form>
+            </p>
+        </section>
+    </div>
+    <div id="footer">
+        Japan Akira Nakai <br> <a href="https://github.com/TheArisAngelo">TheArisAngelo</a>
+    </div>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="app.js"></script>
+</body>
+</html>
