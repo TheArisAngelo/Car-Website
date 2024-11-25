@@ -1,2 +1,2 @@
 # Car-Website
-Baka RWB yan par
+Entertainment Website! Hope you like it guys :)
